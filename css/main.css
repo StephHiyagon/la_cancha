@@ -1,29 +1,31 @@
 #fcancha{
   position:relative;
   background-color: #80B277;
-  width: 354px;
-  height: 196px;
-  margin:40px auto;
+  background-image:url("../images/grass.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  width: 708px;
+  height: 392px;
+  margin:80px auto;
 }
 
 #dcancha{
   position: absolute;
   top:0px;
   left:0px;
-  background-color: #80B277;
-  width: 334px;
-  height: 176px;
-  margin:10px;
-  border:1px solid white;
+  width: 668px;
+  height: 352px;
+  margin:20px;
+  border:2px solid white;
 }
 
 .areas{
   position:absolute;
-  top:44px;
-  background-color:#80B277;
-  width: 53px;
-  height: 82px;
-  border:1px solid white;
+  top:88px;
+  width: 106px;
+  height: 164px;
+  border:2px solid white;
 }
 
 #area1{
@@ -34,36 +36,35 @@
 .pelotas{
   position:absolute;
   background-color: white;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
 }
 
 #pelota1{
-  top:-2px;
-  right:-5px;
+  top:-4px;
+  right:-10px;
 }
 
 #centro{
   position: absolute;
-  top:59px;
-  left:143px;
-  background-color:#80B277;
-  border:1px solid white;
-  width: 50px;
-  height: 50px;
+  top:118px;
+  left:286px;
+  border:2px solid white;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin:auto;
 }
 
 #pelota2{
   bottom:0px;
-  left:-10px;
+  left:-20px;
 }
 
 #pelota3{
-  top:-40px;
-  left:10px;
+  top:-80px;
+  left:20px;
 }
 
 #area2{
