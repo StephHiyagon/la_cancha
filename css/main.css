@@ -1,10 +1,6 @@
 #fcancha{
   position:relative;
   background-color: #80B277;
-  background-image:url("../images/grass.jpg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
   width: 708px;
   height: 392px;
   margin:80px auto;
